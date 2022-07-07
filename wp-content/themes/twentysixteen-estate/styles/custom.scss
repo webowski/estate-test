@@ -1,0 +1,32 @@
+$font-family-base: 'Ubuntu', sans-serif;
+
+body {
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+.site-content {
+	padding-left: 7.6923%;
+	padding-right: 7.6923%;
+}
+
+.card-img-top {
+	object-fit: cover;
+}
+
+.card__price {
+	z-index: 10;
+	pointer-events: none;
+}
+
+.card .carousel-control-next {
+	border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+
+.card .carousel-control-prev {
+	border-top-left-radius: var(--bs-card-inner-border-radius);
+}
+
+.card .carousel-inner {
+	border-top-right-radius: var(--bs-card-inner-border-radius);
+	border-top-left-radius: var(--bs-card-inner-border-radius);
+}
